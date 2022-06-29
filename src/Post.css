@@ -1,0 +1,50 @@
+.post {
+  max-width: 500px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.post__image {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+
+  width: 100%;
+  object-fit: contain;
+}
+
+.post__text {
+  font-weight: normal;
+  padding: 10px;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.post__avatar {
+  margin-right: 5px;
+}
+
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
+.comment_section {
+  padding: 10px;
+}
+
+.comment_Box {
+  display: flex;
+  padding: 10px;
+  border: none;
+}
+
+.comment__text {
+  border-top: 1px solid lightgray;
+  flex: 1;
+}
+.comment__post {
+  flex: 0;
+}
